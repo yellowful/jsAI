@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+</head>
+<body>
+    <div id="debug"></div>
+    <script>
+        var data = 3;
+        // .. ....
+        var data = 33;
+        
+        function test() {
+            let x = 100;
+            // let x = 101; // Syntax error，不能改了
+            if (x > 0) {
+                let y = x;
+                alert(y);
+            }
+            // alert(y); // error，外面的看不到裡面的，教室裡其它人看不到你心理的想法
+            
+            for (let i = 1; i <= 3; i++) {
+                alert(i);
+            }
+            // alert(i); //error，同樣外面看不到裡面
+
+            data = x;
+        }
+        
+        test();
+        
+        debug.innerHTML = "data = " + data;
+        
+        
+    </script>
+</body>
+</html>
