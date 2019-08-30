@@ -1,0 +1,13 @@
+正則表達式
+g=>global
+i=>insensitive
+所有程式語言幾乎都可以用
+電話 身分證字號 車牌 日期
+
+
+date:
+1970-01-01 00:00:00
+browser will transfer the time of UTC to local time
+
+question:
+is it possible to record a date before 1970?
