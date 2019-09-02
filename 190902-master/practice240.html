@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <Script>"use strict";
+        class CAnimal {
+            constructor(weightValue = 1) {
+                this._weight = 0;
+                this.weight = weightValue;
+            }
+            get weight() {
+                return this._weight;
+            }
+            set weight(weightValue) {
+                if (weightValue > 0) {
+                    this._weight = weightValue;
+                }
+            }
+            makeSound() {
+                alert("Animal: ...");
+            }
+        }
+        class CDog extends CAnimal {
+            makeSound() {
+                // super.makeSound();
+                alert("Dog barking!");
+            }
+        }
+        let obj = new CDog(3);
+        obj.makeSound();
+        
+        
+        
+        
+        // --------------------------------------------------
+        // 250 定義類別(五) -- extends, super()
+        
+        "use strict";
+        class CAnimal {
+            constructor(weightValue = 1) {
+                this._weight = 0;
+                this.weight = weightValue;
+            }
+            get weight() {
+                return this._weight;
+            }
+            set weight(weightValue) {
+                if (weightValue > 0) {
+                    this._weight = weightValue;
+                }
+            }
+            makeSound() {
+                alert("Animal: ...");
+            }
+        };
+        class cat extends CAnimal {
+            super.makeSound()
+            makeSound(){
+            alert("miao...")    
+            }
+        };
+        var greyLittle = new cat();
+        cat.makeSound();
+
+        </Script>
+</body>
+</html>

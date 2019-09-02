@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    var format = /ci-15\d/ig;
+    //找到ci-15的，\d是任一位數字，/i是不份大小寫insensitive，/g是找所有的global
+    var data = "Flight numbers: CI-123, CI-151, CI-156.";
+    var result = data.search(format);
+    console.log(result); //顯示在console裡
+
+    var phrase = "A secret makes a woman, woman."
+    var position = phrase.indexOf("woman")
+    var nextPosition = phrase.indexOf("woman", position+1)
+    console.log(nextPosition)
+    //從已找到的下一個字開始找
+
+    //如何取出c:\doc\faq.txt的檔名
+    var route = "c:\\doc\\faq.txt" //\要用\\來跳脫
+    var routetolist = route.split("\\")
+    console.log(routetolist[2])
+    </script>
+
+
+
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    var number = 3;
+    var numberOfManderin = "零一二三四五";
+    //alert(numberOfManderin.substr(number, 1));
+
+    var numberTen = "0123456789";
+    var last3th = numberTen.substr(-3,1);
+    console.log("last third number of 0 to 9 is " + last3th);
+
+
+    var numberString = "0123456789876543210";
+    var result = numberString.slice(2, 5);//2開始，5之前，不含5
+    console.log("result = " + result);
+    
+    var welcomePhrase="Welcome to Taichung.";
+    var substr3rdLetter = welcomePhrase.substr(3,9); //從第4開始取9個
+    console.log("answer of substr\(\) is " + substr3rdLetter);
+    var substring3rdLetter = welcomePhrase.substring(3,9); //從第4取到第8個
+    console.log("answer of substring\(\) is " + substring3rdLetter);
+    substring3rdLetter = welcomePhrase.substring(9,3) //從第8取到第4個
+    console.log("reverse of substring\(\) is " + substring3rdLetter);
+    var slice3rdLetter = welcomePhrase.slice(3, 9); //從第4取到第8個
+    console.log("answer of slice\(\) is " + slice3rdLetter);
+    slice3rdLetter = welcomePhrase.slice(9,3); //slice不行從後面取回來
+    console.log("reverse of slice\(\) is " + slice3rdLetter); 
+
+    var name = "貓在鋼琴上睡著了";
+    var codeOfName = name.charCodeAt(0);
+    //alert(codeOfName.toString(10));
+
+    
+
+    </script>
+    
+
+</body>
+</html>

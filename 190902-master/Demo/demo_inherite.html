@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+</head>
+<body>
+    <div id="debug"></div>
+    <script>
+
+        function Box() {
+            this.color = "golden";
+        }
+        
+        function MusicBox() {
+            this.play = function () {
+                return "Music";
+            }
+        }
+        
+        MusicBox.prototype = new Box();
+        
+        var objMusicBox = new MusicBox();
+
+        debug.innerText = objMusicBox.color + ", " +
+            objMusicBox.play();
+
+//這裡的this指的是objMusicBox，而不是MusicBox
+//objMusicBox是reference，也就是指標，存著一個整數，指向該物件對應的記憶體
+//MusicBox是類別，也佔一塊記憶體
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+</head>
+<body>
+    <div id="debug"></div>
+    <script>
+        var obj = {
+            firstName: "Jeremy",
+            lastName: "Lin"
+        }
+        
+        // debug.innerText = obj.firstName;
+        // debug.innerText = obj["lastName"];
+        
+        obj["backNumber"] = 7;
+        
+        debug.innerText = obj.backNumber;
+
+//物件竟然可以當成陣列來用，這功能很好用
+//因為可以讓屬性名稱當成變數，當作陣列裡的key，而得到對應的value
+//不用寫判斷式去得到所要的屬性
+
+
+    </script>
+</body>
+</html>
