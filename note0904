@@ -1,0 +1,28 @@
+./ this folder
+.. super folder
+/ root and absolute directory
+
+/doc/faq.htm absolute
+doc/faq.htm relative
+./faq.htm = faq.htm
+
+
+<a> a:anker
+<p> paragraph
+<br> break
+<TR> table row
+<td> table data
+<th> table head
+src = source
+
+# bootstrap
+
+copy and change
+ninus rule
+
+container will leave some space to the sides
+better container for rwd
+
+
+
+
