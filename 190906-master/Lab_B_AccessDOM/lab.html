@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="jquery.js"></script>
+</head>
+<body>
+    <div id="lab">Lab Demo Practice</div>
+<script>
+$("#lab").on("click",function(){
+    //alert("ok")
+    
+    //$(this).text("OK2")
+    
+    // $.get("data.json",function(e){
+    //    $("#lab").text(e.data)
+    // })
+    let _this = this
+    // $.get("data.json",function(e){
+    //    $(_this).text(e.data)
+    // })
+
+    // $.ajax({
+    //     type: "get", //post,get,put,delete CRUD creat Read Update Delete
+    //     url: "data.json",
+    //     //contentType: "appliccation/json",
+    //     //data: JSON.stringify(dataToServer)
+    // }).then(function (e) {
+    //     $(_this).text(e.data + "--version 2");
+    // })
+
+
+})
+</script>
+
+</body>
+</html>
