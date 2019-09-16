@@ -1,0 +1,11 @@
+﻿遞歸神經網路（RNN）和長短期記憶模型（LSTM）的運作原理
+https://brohrer.mcknote.com/zh-Hant/how_machine_learning_works/how_rnns_lstm_work.html
+
+
+讓 AI 寫點金庸：如何用 TensorFlow 2.0 及 TensorFlow.js 寫天龍八部
+https://leemeng.tw/how-to-generate-interesting-text-with-tensorflow2-and-tensorflow-js.html
+
+
+少女詩人小冰
+https://poem.msxiaobing.com/
+
